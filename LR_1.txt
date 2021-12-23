@@ -1,0 +1,14 @@
+cd documents
+cd Demyanenko
+cd LR_1
+git init
+echo “# LR_1” >> README.md
+git add README.md
+git add My_first_repository
+git commit -m "first commit" README.md
+git commit -m "first commit" My_first_repository
+git status
+git config --global user.email "dron.37733@gmail.com"
+git config --global user.name "Vlad" 
+git remote add origin https://github.com/vinoblud/LR_1
+git push -u origin master
